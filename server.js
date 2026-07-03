@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
-const products = require("./data/products");
-let orders = require("./data/orders");
+const products = require("./products");
+let orders = require("./index");
 
 app.use(express.json()); 
 
